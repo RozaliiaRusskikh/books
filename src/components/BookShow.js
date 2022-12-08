@@ -1,5 +1,9 @@
-function BookShow() {
-    return <div>Book Show</div>
+function BookShow({ book }) {
+    return (<div>
+        <div>
+            {book.title}
+        </div>
+    </div>)
 }
 
 export default BookShow;
