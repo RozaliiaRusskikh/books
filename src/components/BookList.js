@@ -6,7 +6,7 @@ function BookList({ books }) {
             return <BookShow key={book.id} book={book} />
         });
 
-    return <div>{renderedBooks}</div>
+    return <div className="book-list">{renderedBooks}</div>
 }
 
 export default BookList;
